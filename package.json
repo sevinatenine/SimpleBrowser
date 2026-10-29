@@ -1,0 +1,19 @@
+{
+  "name": "simplebrowser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/fix-rpath.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "color-parse": "^2.2.0",
+    "parse5": "^8.0.1",
+    "tessera.js": "^1.0.4"
+  }
+}
