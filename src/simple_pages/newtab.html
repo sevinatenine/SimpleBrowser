@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple | New Tab</title>
+    <style>
+        body { background-color: #f4f4f4; padding: 20px; }
+        h1 { color: #222; font-size: 64px; }
+        h2 { color: #555; font-size: 32px; }
+        p  { color: #666; font-size: 20px; }
+        a  { color: #0645ad; font-size: 24px; }
+        input {
+            background-color: white;
+            border-color: #888;
+            border-width: 2px;
+            padding: 6px;
+        }
+        button {
+            background-color: #ddd;
+            border-color: #888;
+            border-width: 2px;
+            padding: 6px;
+            color: black;
+        }
+        div { padding: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Simple</h1>
+    <p>Search or type a URL above.</p>
+
+    <form action="https://html.duckduckgo.com/html/" method="get">
+        <input type="text" name="q" value="">
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Quick links</h2>
+    <div><a href="http://info.cern.ch">info.cern.ch</a></div>
+    <div><a href="https://example.com">example.com</a></div>
+    <div><a href="https://text.npr.org">NPR (text only)</a></div>
+    <div><a href="https://lite.cnn.com">CNN Lite</a></div>
+    <div><a href="https://news.ycombinator.com">Hacker News</a></div>
+    <div><a href="https://lobste.rs">Lobsters</a></div>
+    <div><a href="https://wiby.me">Wiby (old-web search)</a></div>
+    <div><a href="https://lite.duckduckgo.com/lite/">DuckDuckGo Lite</a></div>
+    <div><a href="https://en.wikipedia.org/wiki/Special:Random">Random Wikipedia article</a></div>
+    <div><a href="http://neverssl.com">neverssl.com</a></div>
+    
+    <h2>Simple Functions</h2>
+    <div><a href="simple://info">View simple info</a></div>
+    <div><a href="simple://history">View your history</a></div>
+    <div><a href="simple://newtab">Reload this page</a></div>
+</body>
+</html>
