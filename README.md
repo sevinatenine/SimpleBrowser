@@ -11,7 +11,7 @@ You can either run it using the NPM package or run it locally.
 Run it with:
 
 ```bash
-npx simplebrowser
+npx simplebrowser-js
 ```
 
 ### Locally

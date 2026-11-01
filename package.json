@@ -1,5 +1,5 @@
 {
-  "name": "simplebrowser",
+  "name": "simplebrowser-js",
   "version": "1.0.0",
   "description": "A from-scratch, minimalistic web browser written in NodeJS.",
   "keywords": ["browser", "tessera", "raylib"],
