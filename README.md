@@ -4,7 +4,7 @@ Simple Browser is a from-scratch, minimalistic web browser written in NodeJS. It
 
 ## Running
 
-You can either run it using the NPM package or run it locally.
+You can either run it using the NPM package or run it locally on your machine with NodeJS.
 
 ### NPM
 
@@ -16,8 +16,16 @@ npx simplebrowser-js
 
 ### Locally
 
-Clone it and run:
+First, you need to clone this repository from GitHub:
+
+```bash
+git clone https://github.com/sevinatenine/SimpleBrowser
+```
+
+To run the code:
 
 ```bash
 node src/launcher.js
 ```
+
+> **NOTE:** I wrote a launcher file that will load the correct library or shared object for raylib, which tessera uses, because there were problems. The windows one should not need to load a special library, but a MacOS arm64 and a Linux x64 dylib/so are included.
